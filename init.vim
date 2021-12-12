@@ -16,7 +16,11 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " Install dart and flutter support
+" Dart and Flutter support
 Plug 'thosakwe/vim-flutter'
+Plug 'natebosch/dartlang-snippets'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 " Source config files
