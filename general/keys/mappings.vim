@@ -14,3 +14,7 @@ nnoremap <leader>fa :FlutterRun<cr>
 nnoremap <leader>fq :FlutterQuit<cr>
 nnoremap <leader>fr :FlutterHotReload<cr>
 nnoremap <leader>fR :FlutterHotRestart<cr>
+
+" Symbol renaming
+nnoremap <leader>rn <Plug>(coc-rename)
+
