@@ -9,18 +9,17 @@
 
 " Specifies the plugins directory
 call plug#begin('~/.config/nvim/plugged')
-" Fuzzy finder
+" Import file tree 
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-" Tree-sitter
+" File tree icons
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
-" Install dart and flutter support
 " Dart and Flutter support
 Plug 'thosakwe/vim-flutter'
 Plug 'natebosch/dartlang-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Import brackets in pair.
 Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
