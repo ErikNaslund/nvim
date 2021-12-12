@@ -38,3 +38,4 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
+source $HOME/.config/nvim/general/init.vim

@@ -16,3 +16,4 @@ set splitbelow splitright   " Always split to bottom and right
 set ignorecase              " Ignore case when searching
 set smartcase               " Override ignore case if captial letter
 set incsearch               " Search for live string
+set noswapfile              " Prevent swap file generation
