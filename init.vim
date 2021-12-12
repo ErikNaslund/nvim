@@ -21,8 +21,11 @@ Plug 'natebosch/dartlang-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Import brackets in pair.
 Plug 'jiangmiao/auto-pairs'
+" Colortheme
+Plug 'sainnhe/gruvbox-material'
 call plug#end()
 
 " Source config files
 source $HOME/.config/nvim/general/init.vim
+source $HOME/.config/nvim/ui/init.vim
 source $HOME/.config/nvim/lua/init.lua
